@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		canvas{
+			background-color: cyan;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<script type="text/javascript" src='starMaker.js'></script>
+	<script type="text/javascript">
+		var canvas = document.getElementById('canvas');
+		var starMaker = new StarMaker();
+
+		starMaker.fullScreenStar({
+			element:canvas,
+		});
+		
+	
+
+
+		
+		
+
+			
+	</script>
+</body>
+</html>
