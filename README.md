@@ -28,9 +28,9 @@ js部分
 ##StarMaker实例 各方法及接口 
 
 ###fullScreenStar(obj)
-_*_ &nbsp;&nbsp;为必填参数
+<em color='red'>*</em> &nbsp;&nbsp;为必填参数
 ####obj.element 
-_*_ &nbsp;obj.element 接收一个canvas元素为参数，在此canvas元素下绘画操作。
+<em color='red'>*</em> &nbsp;obj.element 接收一个canvas元素为参数，在此canvas元素下绘画操作。
 
 
 
