@@ -1,0 +1,118 @@
+* { -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+html,body{background:transparent;font-size: 14px;line-height: 1.5;color: #333;letter-spacing:.1px;}
+/**/
+.baseItem dl dt .resume_focus:after{top: 6px !important;left: 3px !important;}
+.msgDiv dd .resume_focus:after{top: -1px !important;left: -3px !important;}
+.hobbyDiv dd .resume_focus:after{height: 51px !important;top: 7px;left: 0px;}
+
+.wbd-baseStyle .nameDiv h1{font-size: 48px;color: #254665;}
+.wbd-baseStyle .baseItem dl dt a{display:inline-table;vertical-align: middle;text-align: center;margin-right:6px;font-size:45px;color: #254665;height:45px;line-height:54px;float:left;}
+.wbd-baseStyle .baseItem dl dt span{font-weight:600;font-size: 24px;float:left;display:block;position: relative;width: 550px;}
+.wbd-baseStyle .wbd-divLeft .baseItem dl dt span{border: none;color: #FFF;width:230px;}
+.wbd-baseStyle .wbd-divLeft .baseItem dl dt a{color: #FFF;}
+.wbd-baseStyle .wbd-divLeft .hobbyDiv dl dd{margin-left:-18px ;}
+.wbd-baseStyle .wbd-divLeft .hobbyDiv .baseHobby{margin-right: 0px;width: 75px;}
+
+/*个人信息*/
+.wbd-baseStyle .msgDiv .baseMsg a.wbdfont{font-size: 16px;color: #fff;float: left;line-height: 24px;}
+.wbd-baseStyle .msgDiv .baseMsg span{width: 218px;font-size: 16px;line-height: 26px;color: #fff;float: left;padding-left: 5px;}
+
+
+.wbd-baseStyle{padding:0px;}
+
+/*模板结构*/
+
+.wbd-baseStyle .wbd-divLeft{width: 375px;margin:0px;float:right;color:#fff;margin-top:260px;min-height:1250px;padding: 50px 32px 0 29px;}
+.wbd-baseStyle .wbd-divRight{position: relative;width: 725px;float:left;min-height:1133px;height:auto;padding:20px 40px 0;}
+
+/*通用信息*/
+.wbd-baseStyle .baseItem{float: left;width:100%;}
+.wbd-baseStyle .baseItem dl{padding:0px;overflow: initial;}
+.wbd-baseStyle .baseItem dl dt{padding:0px;position:relative;height:60px;line-height:60px;margin-bottom:15px;padding-left:10px;}
+.wbd-baseStyle .baseItem dl dt a{position:relative;font-size:40px;z-index:99;margin-left:-5px;}
+.wbd-baseStyle .baseItem dl dt span{line-height:60px;color:#af9764;padding:0px;padding-left:20px;}
+.wbd-baseStyle .baseItem dl dt span div.Border{position:absolute;top:52px;left:0px;width:100%;border-top-color:#6f7d8e;display: none;}
+.wbd-baseStyle .baseItem dl dd{padding:0px 10px 14px 0;}
+.wbd-baseStyle .baseItem .baseContent{margin:0px;padding: 0px 5px 0 0px;color:#656565;}
+.wbd-baseStyle .wbd-divLeft .baseItem .baseContent{color:#FFF;}
+.wbd-baseStyle .baseItem .baseContent .conTitle span.time{width:155px;}
+.wbd-baseStyle .baseItem .baseContent .conTitle span.company{width: 295px;}
+.wbd-baseStyle .baseItem .baseContent .conTitle span.post{width: 166px;}
+
+/*头像模块*/
+.wbd-baseStyle .headDiv .inner{width:150px;height:150px;position:relative;overflow: hidden;border-radius:50%;float:left;margin-right:20px;margin-left: 20px;top: 30px;}
+.wbd-baseStyle .headDiv .inner img{display: block;cursor:pointer;width:192px;height:192px;border-radius:50%;}
+.wbd-baseStyle .headDiv .inner  .headNotice{position: absolute;cursor:pointer;width: 100%;height: 100%;background-color: rgba(0,0,0,.3);text-align: center;padding-top:124px;color: rgba(255,255,255,.5); opacity: 0;}
+.wbd-baseStyle .headDiv:hover .inner .headNotice{opacity:1;}
+/*姓名、求职意向*/
+.wbd-baseStyle .nameDiv{padding:0px;float: left;width:395px;margin:0px;position: relative;margin-top:102px;margin-bottom:40px;}
+.wbd-baseStyle .nameDiv h1{width:100%;text-align:left;color:#fff;}
+.wbd-baseStyle .nameDiv h2{width:100%;text-align:left;font-weight: lighter;color:#fff;}
+
+/*基本信息模块*/
+.wbd-baseStyle .msgDiv{width:100%;height:auto;float: left;}
+.wbd-baseStyle .msgDiv.positonDiv{margin:0px;margin-bottom:20px;}
+.wbd-baseStyle .msgDiv .baseMsg{color:#fff;margin-bottom:1px;float: left;}
+.wbd-baseStyle .msgDiv .baseMsg a{display: inline-block;font-size:16px;margin-right:4px;vertical-align: middle;color:#fff;height:31px;float: left;padding-top: 3px;display: none;}
+.wbd-baseStyle .msgDiv .baseMsg span{width:295px;color:#FFF;height:31px;float: left;}
+
+.wbd-baseStyle .msgDiv.baseItem dl dt a{cursor: default;}
+.wbd-baseStyle .skillDiv.baseItem dl dt a{cursor: default;}
+.wbd-baseStyle .hobbyDiv.baseItem dl dt a{cursor: default;}
+
+.wbd-baseStyle .hobbyDiv{float:left;margin-bottom:20px;}
+.wbd-baseStyle .hobbyDiv dl dd .hobbyicon{width:65px;padding:0 0 10px 0;float:left;margin:6px;position:relative;border:1px solid transparent;}
+.wbd-baseStyle .hobbyDiv dl dd .hobbyicon a{display: block;width:65px;height:50px;text-align: center;font-size:40px;color:#fff;}
+.wbd-baseStyle .hobbyDiv dl dd .hobbyicon span{display: block;text-align:center;color:#FFF;font-size:14px;width:70px;}
+.wbd-baseStyle .hobbyDiv dl dd{margin-left:-21px;}
+/*个人技能*/
+.wbd-baseStyle .skillDiv{padding:0px;position: relative;bottom:0px;width:100%;}
+.wbd-baseStyle .skillDiv .baseSkill{color:#fff;margin:0px;float:left;margin-right:28px; padding-right: 10px}
+.wbd-baseStyle .skillDiv .baseSkill .line{width:142px;height:8px;position: relative;display: block;margin-top:10px;margin-left:125px;border:1px solid #000;}
+.wbd-baseStyle .skillDiv .baseSkill .line i{width:60%;position: absolute;display: block;left: 0;top:0;border-top-style:solid;border-top-width:7px;border-top-color:#000;}
+.wbd-baseStyle .skillDiv .baseSkill .title{height:30px;width:125px;float:left;font-size:16px;color:#656565;}
+
+
+.wbd-baseStyle .wbd-divLeft .baseItem dl dt{background:url(../img/j1_l_dt.png) no-repeat 0px center;}
+.wbd-baseStyle .wbd-divRight .baseItem dl dt a{color:#fff;}
+.wbd-baseStyle .wbd-divLeft .baseItem dl dt span{color:#fff;}
+
+.jm0306_j1{background:#fff url(../img/j1_head_bg.png) no-repeat 0px 25px;}
+.jm0306_j2{background:#fff url(../img/j2_head_bg.png) no-repeat 0px 25px;}
+.jm0306_j3{background:#fff url(../img/j3_head_bg.png) no-repeat 0px 25px;}
+
+.jm0306_j1 .headDiv .inner{border:6px solid #48A85E;}
+.jm0306_j2 .headDiv .inner{border:6px solid #3086b7;}
+.jm0306_j3 .headDiv .inner{border:6px solid #f05050;}
+
+.jm0306_j1 .nameDiv.selectedItem,.jm0306_j1 .wbd-divLeft .selectedItem{background: #48A85E;}
+.jm0306_j2 .nameDiv.selectedItem,.jm0306_j2 .wbd-divLeft .selectedItem{background: #3086b7;}
+.jm0306_j3 .nameDiv.selectedItem,.jm0306_j3 .wbd-divLeft .selectedItem{background: #f05050;}
+
+.jm0306_j1 .baseItem dl dt a{color:#af9764;}
+.jm0306_j2 .baseItem dl dt a{color:#a04444;}
+.jm0306_j3 .baseItem dl dt a{color:#3d4a61;}
+
+.jm0306_j1 .wbd-divLeft{background:#39A051 url(../img/j1_l.png) no-repeat top left}
+.jm0306_j2 .wbd-divLeft{background:#3086b7 url(../img/j2_l.png) no-repeat top left}
+.jm0306_j3 .wbd-divLeft{background:#f05050 url(../img/j3_l.png) no-repeat top left}
+
+.jm0306_j1 .wbd-divLeft .baseItem dl dt a{color:#48A85E;}
+.jm0306_j2 .wbd-divLeft .baseItem dl dt a{color:#3086b7;}
+.jm0306_j3 .wbd-divLeft .baseItem dl dt a{color:#f05050;}
+
+.jm0306_j1 .wbd-divRight .baseItem dl dt span{color:#48A85E;}
+.jm0306_j2 .wbd-divRight .baseItem dl dt span{color:#3086b7;}
+.jm0306_j3 .wbd-divRight .baseItem dl dt span{color:#f05050;}
+
+.jm0306_j1 .wbd-divRight .baseItem dl dt{background:url(../img/j1_r_dt.png) no-repeat 0px center;}
+.jm0306_j2 .wbd-divRight  .baseItem dl dt{background:url(../img/j2_r_dt.png) no-repeat 0px center;}
+.jm0306_j3 .wbd-divRight  .baseItem dl dt{background:url(../img/j3_r_dt.png) no-repeat 0px center;}
+
+.jm0306_j1 .skillDiv .baseSkill .line{border:1px solid #48A85E;}
+.jm0306_j1 .skillDiv .baseSkill .line i{border-color:#48A85E;}
+.jm0306_j2 .skillDiv .baseSkill .line{border:1px solid #3086b7;}
+.jm0306_j2 .skillDiv .baseSkill .line i{border-color:#3086b7;}
+.jm0306_j3 .skillDiv .baseSkill .line{border:1px solid #f05050;}
+.jm0306_j3 .skillDiv .baseSkill .line i{border-color:#f05050;}
+

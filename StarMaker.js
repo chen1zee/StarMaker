@@ -25,7 +25,7 @@
 			ctx = canvas.getContext('2d'),
 			particles = [],// 粒子s 数组
 			particleNumber = (Math.ceil(wW * wH / 3000)> 300) && 300 || (Math.ceil(wW * wH / 3000)),//---粒子总数
-			minNearDistanceSquare = ((wW > wH) && (wW / 15) || (wH / 15)) * ((wW > wH) && (wW / 15) || (wH / 15)),//---碰撞产生连线距离
+			minNearDistanceSquare = ((wW > wH) && (wW / 17) || (wH / 17)) * ((wW > wH) && (wW / 17) || (wH / 17)),//---碰撞产生连线距离
 			lineColor = '#034769',
 			particleColor = '#6e3b00';//---粒子公共属性 ： 颜色
 
@@ -41,12 +41,12 @@
 				 /* body... */ 
 			}
 			function CreParticle() {//---构造函数   ，单粒子
-				this.r = Math.random() * (5 - 1) + 2;//---radius 2-8
+				this.r = Math.random() * (5 - 1) + 2;//---radius 2-5
 				this.x = Math.random() * (wW + 1);//--- positionX 0-wW
 				this.y = Math.random() * (wH + 1);
 				this.dirX = Math.random() > 0.5 && 1 || -1;//---x,y行走方向
 				this.dirY = Math.random() > 0.5 && 1 || -1;
-				this.v = Math.random() * (0.5) + 0.5;//---speed
+				this.v = Math.random() * (0.8) + 0.5;//---speed
 
 				 /* body... */ 
 			}
@@ -103,15 +103,19 @@
 				drawBg();//---画背景
 				ctx.fillStyle = particleColor;
 				ctx.strokeStyle = lineColor;
-				for (var i = 0; i < particleNumber; i++) {//---遍历星星粒子
+				for (var i = 0; i < particleNumber; i++) {//---遍历星星粒子,并先画出连线
 					
 					particles[i].move();//---每个粒子走动
-					particles[i].draw();
+					
 					
 					for (var j = i+1; j < particleNumber; j++) {
 						judgeNear(particles[i],particles[j]);
 					}
 				}
+				for (var i = 0; i < particleNumber; i++) {//---第二次再画星星，，保证星不被遮住
+					particles[i].draw();
+				}
+
 				requestAnimationFrame(main);
 
 				 /* body... */ 
@@ -123,6 +127,61 @@
 
 
 			 /* body... */ 
+		},
+		this.lineCrossScreen = function (obj) {//---参照 http://evanyou.me/ 中代码
+
+
+			document.addEventListener('touchmove', function (e) {
+				e.preventDefault()
+			});
+			// ---变量声明区--------------
+			var c = obj.element,
+			x = c.getContext('2d'),
+			pr = window.devicePixelRatio || 1,
+			w = window.innerWidth,
+			h = window.innerHeight,
+			f = 90,
+			q,
+			m = Math,
+			r = 0,
+			u = m.PI*2,
+			v = m.cos,
+			z = m.random
+			// ---变量声明区---结束---------
+			
+			c.width = w*pr
+			c.height = h*pr
+
+			x.scale(pr, pr)
+			x.globalAlpha = 0.6
+			function i(){
+				x.clearRect(0,0,w,h)
+				q=[{x:0,y:h*.7+f},{x:0,y:h*.7-f}]
+				while(q[1].x<w+f) d(q[0], q[1])
+			}
+			function d(i,j){   
+				x.beginPath()
+				x.moveTo(i.x, i.y)
+				x.lineTo(j.x, j.y)
+				var k = j.x + (z()*2-0.25)*f,
+				n = y(j.y)
+				x.lineTo(k, n)
+				x.closePath()
+				r-=u/-50
+				x.fillStyle = '#'+(v(r)*127+128<<16 | v(r+u/3)*127+128<<8 | v(r+u/3*2)*127+128).toString(16)
+				x.fill()
+				q[0] = q[1]
+				q[1] = {x:k,y:n}
+			}
+			function y(p){
+				var t = p + (z()*2-1.1)*f
+				return (t>h||t<0) ? y(p) : t
+			}
+			document.onclick = i
+			document.ontouchstart = i
+			i()
+
+			/* body... */ 
 		}
 
 	}

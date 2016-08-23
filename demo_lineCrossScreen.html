@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		#canvas{
+			position: absolute;
+			z-index: -1;
+
+		}
+		#intro{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-left: -150px;
+			margin-top: -150px;
+			width: 200px;
+			height: 200px;
+		}
+		h1{
+			font-size: 50px;
+		}
+		
+	</style>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<div id="intro">
+		<h1>陈绍汉</h1>
+	</div>
+	
+	<script type="text/javascript" src='starMaker.js'></script>
+	<script type="text/javascript">
+		var canvas = document.getElementById('canvas');
+		var starMaker = new StarMaker();
+
+		starMaker.lineCrossScreen({
+			element:canvas,
+		});
+		
+	
+
+
+		
+		
+
+			
+	</script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+
+.c-pro-bg{
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	height: 1630px;
+	color: #656556;
+}
+.c-pro-bg>.project-wrap{
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 25px 42px;
+	width: 1120px;
+	height: 100%;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.project-wrap>*{
+	padding-left: 130px;
+	
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.project-wrap.project1>.skill{
+	position: relative;
+}
+.project-wrap.project1>.skill>.img1{
+	position: absolute;
+	width: 220px;
+	top: 25px;
+	right: 280px;
+
+}
+.project-wrap.project1>.skill>.img2{
+	position: absolute;
+	width: 210px;
+	top: 23px;
+	right: 30px;
+}	
+.project-wrap.project1>.skill>.img3{
+	position: absolute;
+	top: 90px;
+	right: 120px;
+	font-size: 50px;
+	color: #48a85e;
+	font-weight: 900;
+}
+
+.project-wrap>p{
+	padding-top: 10px;
+}
+
+.project-wrap>div{
+	border-bottom: 0;
+	padding-top: 20px;
+
+}
+.project-wrap>h2{
+	font-size: 27px;
+	font-weight: 600;
+	line-height: 60px;
+	color: #48a85e;
+}
+.project-wrap .title{
+	float: left;
+	margin-left: -130px;
+	color: #48a85e;
+	
+}
+
+
+.section{
+	min-height: 50px;
+}
+.section span{
+	display: inline-block;
+}
+
+.section>.title{
+	font-size: 20px;
+	height: 50px;
+	line-height: 30px;
+}
+.section>.para{
+	font-size: 18px;
+	line-height: 30px;
+}
+#show100du{
+	position: relative;
+	padding-top: 50px;
+}
+#show100du>img{	
+	width: 70%;
+	border-left: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+}
+#show100du>img.first{
+	position: relative;
+	left: -15%;
+}
+#show100du>img.second{
+	
+	position: absolute;
+	top: 190px;
+	right: -14px;
+}
+#show100du>img.third{
+	position: absolute;
+	border:0;
+	width: 150px;
+	top: -35px;
+	right: 300px;
+}
+#show100du>img.forth{
+	position: absolute;
+	top: -70px;
+	right: 100px;
+	border: 0;
+	width: 300px;
+	z-index: -1;
+}
+
+.project1 .task{
+	position: relative;
+
+}
+.project1 .task>.img1{
+	position: absolute;
+	top: 20px;
+	right: 250px;
+	width: 250px;
+
+}
+/*—————————— 第一个项目展示——————————————*/
+
+
+/*————————————第二个项目— 开始—————————————*/
+#showFamily{
+	position: relative;
+	padding-top: 50px;
+}
+#showFamily>img{
+	border-top: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+}
+#showFamily>img.first{
+	position: relative;
+	width: 400px;
+	left: -130px;
+}
+#showFamily>img.second{
+	position: absolute;
+	width: 400px;
+	top: 85px;
+	left: 200px;
+}
+#showFamily>img.third{
+	position: absolute;
+	width: 400px;
+	top: 120px;
+	left: 510px;
+}
+.project-wrap.project2>.skill{
+	position: relative;
+}
+.project-wrap.project2>.skill>.img1{
+	position: absolute;
+	width: 250px;
+	top: 20px;
+	right: 300px;
+
+}
+.project-wrap.project2>.skill>.img2{
+	position: absolute;
+	width: 240px;
+	top: 20px;
+	right: 30px;
+}	
+.project-wrap.project2>.skill>.img3{
+	position: absolute;
+	width: 250px;
+	top: 100px;
+	right: 100px;
+}
+.project-wrap.project2>.skill>.img4{
+	position: absolute;
+	font-size: 50px;
+	top: 120px;
+	right: 380px;
+	font-weight: 900;
+	color: #48a85e;
+}
+
+
+/*————————————第二个项目——结束————————————*/
+
+
+/*————————————第三个项目— 开始—————————————*/
+.project3 .skill{
+	position: relative;
+}
+.project3 .skill .img1{
+	position: absolute;
+	width: 180px;
+	top: 50px;
+	right: 20px;
+}
+
+#showJingying{
+	position: relative;
+	padding-top: 20px;
+}
+#showJingying>.first{
+	position: relative;
+	width: 800px;
+	left: -140px;
+}
+#showJingying>.second{
+	position: absolute;
+	width: 800px;
+	top: 400px;
+	left: -140px;
+}
+#showJingying>.third{
+	position: absolute;
+	top: 160px;
+	right: -20px;
+	width: 260px;
+
+}
+
+
+
+
+/*————————————第三个项目— 结束—————————————*/
+
+
+
+
+
+

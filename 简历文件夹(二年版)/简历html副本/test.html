@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人简历</title>
+
+	<link rel="stylesheet" href="./css/project.css">
+	<style>
+		
+		canvas{
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 2;
+		}
+		.zx-preview-ld.resetEditStyle{
+			border: 1px solid #ddd !important;
+
+		}
+		.resetEditStyle{
+			border: 0px solid #ddd !important;
+		}
+		.previewModal{
+			margin: 0 auto;
+		}
+		
+		.wbd-baseStyle .baseSort:hover{
+			background-color: transparent !important;
+			border: 1px solid transparent !important;
+		}
+		.zx-preview-box{
+			overflow: hidden !important;
+			height: 1600px;
+		}
+		#skillconfirm{
+
+		}
+		#resume_graph{
+
+			margin-left: 5px;
+		}
+		#language{
+			position: absolute;
+			height: 500px;
+			top: 369px;
+			left: 352px;
+
+		}
+		#language img{
+			position: relative;
+			top: 5px;
+			left: -5px;
+			width: 50px;
+			height: 50px;
+
+		}
+		#resume_cart p:nth-of-type(1){
+			padding-top: 0;
+		}
+		#resume_cart p{
+			padding-top: 21px;
+
+		}
+		#resume_icon dt a{
+			position: relative;
+			
+		}
+		#resume_icon dt img{
+			position: absolute;
+			top: 5px;
+			left: -5px;
+			width: 50px;
+			height: 50px;
+		}
+		#resume_icon dt span{
+			padding-left: 62px !important;
+		}
+		#introMyself p{
+			font-size: 20px;
+		}
+		#introMyself .large{
+			display: inline-block;
+			font-size: 30px;
+		}
+		#introMyself .small{
+			display: inline-block;
+			font-size: 18px;
+		}
+		#introMyself img{
+			display: inline-block;
+		}
+		#introMyself>p{
+
+		}
+		.project-wrap>.skill{
+
+		}
+		.wbd-baseStyle .baseContent p {
+			padding-top: 17px !important;
+			font-size: 17px !important;
+		}
+		.wbd-baseStyle .baseContent{
+			font-size: 17px !important;
+		}
+		.wbd-baseStyle .baseContent .conTitle span>div{
+			text-align: center;
+		}
+		.wbd-baseStyle .skillDiv .baseSkill .title{
+			font-size: 17px !important;
+		}
+		.wbd-baseStyle .msgDiv .baseMsg span{
+			font-size: 18px !important;
+		}
+		.wbd-baseStyle .hobbyDiv .baseHobby .title{
+			font-size: 18px !important;
+		}
+	</style>
+
+</head>
+<body>
+
+	
+
+	<div class="previewModal" style="overflow: hidden; display: block;position:static;width:1120px;">
+
+		<div class="zx-preview-box" id="previewHtml">
+
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>简历</title>
+        
+		<link rel="stylesheet" type="text/css" href="./static/res/500d/css/style.css">
+		<link rel="stylesheet" type="text/css" href="./static/res/500d/css/new.css" media="all">
+		<link rel="stylesheet" href="./static/res/500d/edit/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://static.500d.me/resources/500d/editresume/css/common.css">
+
+
+ 		<link rel="stylesheet" href="http://static.500d.me/resources/500d/editresume/css/zxbj_base.css?v=2819">
+
+
+ 		<link rel="stylesheet" href="./css/jm0306.css">
+       
+		
+		
+		<style>
+			.wbd-divLeft .wbd-baseStyle .baseContent:hover{
+				border:0px !important;
+			}
+			.wbd-baseStyle .baseContent:hover{
+				border:1px solid transparent !important;
+			}
+			
+		</style>
+		
+	
+	
+	
+		<div class="zx-preview-box" style="background: #fff;">
+		<div class="zx-preview clearfix ">
+			<div class="zx-preview-ld resetEditStyle">
+				
+<div class="wbdzx-container resetEditStyle">
+	
+	<!--编辑区域-->
+	<div class="wbd-baseStyle clearfix jm0306_j1" id="resume_body" version="v4">
+		<!--自定图片-->
+		<!--自定文本-->
+		<div class="wbd-divTop"></div>
+		
+		<div class="wbd-divLeft sortable" id="bar">
+			<div id="bar_sort"></div>
+			<div class="msgDiv baseItem baseSort resume_sort " id="resume_msg">
+				<dl>
+					<dt class="clearfix">
+						<a class="wbdfont setIconBtn resume_icon_diy" for-id="resume_msg" style="font-size:"></a>
+						<span><div  class="resume_tilte_name" for-key="singe_title" for-value="html">个人信息</div></span>
+					</dt>
+					<dd class="clearfix resume_add_area">
+						<div calss="resume_append_area">
+							<div class="baseAge baseMsg baseDel resume_delete_area" id="resume_age">
+								
+								<a class="wbdfont setIconBtn resume_icon_diy" for-id="age" style="font-size:none"></a>
+								<span class="age"><div class="resume_msg" notice-key="age" for-key="age" for-value="html" >年龄：24岁</div></span>
+							</div>
+							
+							<div class="baseMobile baseMsg baseDel resume_delete_area" id="resume_mobile">
+								
+								<a class=" wbdfont setIconBtn resume_icon_diy" for-id="mobile" style="font-size:none"></a>
+								<span class="phone"><div class="resume_msg" notice-key="mobile" for-key="mobile" for-value="html" >电话: &nbsp;130 - 0537 - 1031</div></span>
+							</div>
+							<div class="baseEmail baseMsg baseDel resume_delete_area" id="resume_email">
+								
+								<a class="wbdfont setIconBtn resume_icon_diy" for-id="email" style="font-size:none"></a>
+								<span class="email"><div class="resume_msg" notice-key="email" for-key="email" for-value="html" >邮箱：chenshaoh@163.com</div></span>
+							</div>
+						</div>
+					</dd>
+				</dl>						
+			</div>
+			<div class="hobbyDiv baseItem baseSort resume_sort resume_add_area resume_icon " id="resume_icon">
+				<dl>
+					<dt class="clearfix">
+						<a class="wbdfont setIconBtn resume_icon_diy" for-id="resume_icon" style="font-size:">
+							<img src="./img/hobby.png" alt="">
+						</a>
+						<span> <div  class="resume_tilte_name" for-key="icons_title" for-value="html">兴趣爱好</div></span>
+					</dt>
+					<dd class="clearfix resume_add_area">
+						<div class="resume_append_area">
+							<div class="baseHobby baseDel resume_delete_area resume_icon_item">
+								
+								<a class="wbdfont setIconBtn resume_icon_diy" for-id="resume_hobby_icon" style="font-size:none;position:relative;">
+									<img src="./img/python.png" alt="" style="width:40px;height:40px;position:absolute;top:5px;left:15px;">
+								</a>
+								<div class="title resume_value"  for-key="resume_hobby_icon" for-value="html" style="position:relative;top:-6px;left:3px;">Python</div>
+							</div>
+							<div class="baseHobby baseDel resume_delete_area resume_icon_item">
+								
+								<a class="wbdfont setIconBtn resume_icon_diy" for-id="resume_hobby_icon" style="font-size:none;position:relative;">
+									<img src="./img/skull.png" alt="" style="width:40px;height:40px;position:absolute;top:5px;left:15px;">
+								</a>
+								<div class="title resume_value"  for-key="resume_hobby_icon" for-value="html" style="position:relative;top:-6px;left:3px;">瞎折腾</div>
+							</div>
+							<div class="baseHobby baseDel resume_delete_area resume_icon_item">
+								
+								<a class="wbdfont setIconBtn resume_icon_diy" for-id="resume_hobby_icon" style="font-size:none;position:relative;">
+									<img src="./img/badmin.png" alt="" style="width:40px;height:40px;position:absolute;top:5px;left:15px;">
+								</a>
+								<div class="title resume_value"  for-key="resume_hobby_icon" for-value="html" style="position:relative;top:-6px;left:3px;">羽毛球</div>
+							</div>
+							<div class="baseHobby baseDel resume_delete_area resume_icon_item">
+								
+								<a class="wbdfont setIconBtn resume_icon_diy" for-id="resume_hobby_icon" style="font-size:none;position:relative;">
+									<img src="./img/dota.png" alt="" style="width:40px;height:40px;position:absolute;top:5px;left:15px;">
+								</a>
+								<div class="title resume_value"  for-key="resume_hobby_icon" for-value="html" style="position:relative;top:-6px;left:3px;">游戏</div>
+							</div>
+							
+							
+						</div>
+					</dd>
+				</dl>						
+			</div>
+			<!--自我评价-->		
+			<div class="selfDiv baseItem baseSort resume_item resume_sort resume_notice " notice-key="self" id="resume_self" for-key="self">
+				<dl>
+					<dt class="clearfix">
+						<a class="wbdfont setIconBtn resume_icon_diy" for-id="self" style="font-size:none"></a>
+						<span><div  class="resume_tilte_name" for-key="self_title" for-value="html">自我评价</div></span>
+					</dt>
+					<dd class="clearfix">
+						<div class="baseContent">			
+							<div class="conText clearfix baseDel resume_delete_area">
+								
+								<div id="introMyself" class="resume_value" >
+								<!-- 写字 -->
+
+										<p style="border-bottom:1px solid #fff;">
+											<span class="large">爱&nbsp;</span>
+											
+											<span class="small">折 腾&nbsp;&nbsp;&nbsp;玩坏了就 git reset 嘛</span>
+										</p> 
+										<p>
+											<img src="./img/pixial-eye.png" style="width:50px;height:50px;" alt="">
+											<span class="large" style='position: relative;top: -15px;'> &nbsp;&nbsp;像素眼</span>
+											
+										</p>
+										<p style="border-bottom:1px solid #fff;">
+											<span class="small" style="position:relative;top:-19px;padding-left:95px;">今天头发长了3像素</span>
+										</p>
+										<div style="position:relative; top:6px;border-bottom:1px solid #fff;">
+											<img src="./img/alistro.png" style="width:140px;height:270px;" alt="">
+											<p style="position:absolute; top:0;right:0; text-align:right;">
+												<span class="large">爱 </span> 学习&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												<br>
+												<span class="small">给我一份文档&nbsp;&nbsp;&nbsp;</span>
+												<br>			
+												<span>
+													我能把这框架
+													<br>
+													变成自己的&nbsp;&nbsp;
+													<br>
+													<span class="large">螺丝刀</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												</span>								
+											</p>
+											<img src="./img/tool.png" alt="" style="position:absolute;bottom:15px;right:60px;width:90px;height:90px;">
+										</div>
+										<div style="position:relative; top:12px; height: 230px;border-bottom:1px solid #fff;">
+											<img src="./img/car1.png" style="position:absolute;top:0;left:0;width:210px;height:230px;" alt="">
+											<p style="position:absolute; top:0;right:7px; text-align:right;">
+												<span class="large">热衷 </span> 做轮子&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												<br>			
+												<span>
+													希望以后能
+													<br>
+													做一辆自己的
+													<br>
+													<span class="large">三轮车</span>&nbsp;
+												</span>								
+											</p>
+										</div>	
+
+								</div>
+							</div>
+						</div>		
+					</dd>
+				</dl>
+			</div>
+
+			
+		</div>
+		<div class="wbd-divCenter"></div>
+		<div class="wbd-divRight sortable resume_main" id="foo">
+			<div class="headDiv " id="resume_head">
+				<div class="inner">
+					<span class="headNotice">
+
+					</span>
+					<!--真正需要提交的头像，-->
+					<img class="resume_head" style="display:none" src="http://static.500d.me/resources/500d/editresume/images/default_head.png" width="150px" height="200">
+					<div class="img-preview img-preview-head resume_head_div" style="width: 192px;height: 192px;position: relative;top: -5px;left: -6px;">
+						<!--预览的头像-->
+						<img src="./img/person.png" style="position:relative;top: -4px;left:14px;width:134px;height:185px;">
+					</div>							
+				</div>
+			</div>
+			<div class="nameDiv baseItem baseSort resume_sort" id="resume_name">
+				<dl>
+					<dt></dt>
+					<dd>
+						<div>					
+							<h1><div class="resume_msg"  notice-key="msg" for-key="name" for-value="html">陈 绍 汉</div></h1>
+							<h2><div class="resume_msg"  notice-key="msg" for-key="job" for-value="html">求职目标：WEB 前端 ||  H5 移动端 开发工程师</div></h2>
+						</div>										
+					</dd>
+				</dl>
+			</div>
+			<div id="foo_sort"></div>
+			<!--教育背景-->
+			<div id="c-education" class="experDiv baseItem baseSort resume_add_area resume_sort resume_item " notice-key="edu" id="resume_edu" for-key="edu">
+				
+
+				<dl>
+					<dt class="clearfix">
+						<a class="wbdfont setIconBtn resume_icon_diy" for-id="edu" style="font-size:none"> </a>
+						<span><div  class="resume_tilte_name" for-key="eduall_title" for-value="html">教育背景</div></span>
+					</dt>
+					<dd class="clearfix resume_append_area">
+						
+						<div class="baseContent resume_item_items baseDel resume_delete_area">	
+							
+							<div class="conTitle clearfix">
+								<span class="time">
+									<div  class="resume_time">2010.9-2014.07</div>
+								</span>
+								<span class="company">
+									<div  class="resume_unit">中南大学</div>
+								</span>
+								<span class="post">
+									<div  class="resume_job">本科 </div>
+								</span>
+							</div>
+						</div>
+						
+					</dd>
+				</dl>
+			</div>			
+			
+			<!--技能证书-->		
+			<div class="cartDiv baseItem baseSort  resume_item resume_sort resume_notice" notice-key="cert" id="resume_cart" for-key="cart">
+				<dl>
+					<dt class="clearfix">
+					<a class="wbdfont setIconBtn resume_icon_diy" for-id="cart" style="font-size:none"></a>
+					<span><div  class="resume_tilte_name" for-key="cart_title" for-value="html">技能证书</div></span>
+					</dt>
+					<dd class="clearfix">
+						<div class="baseContent">			
+							<div class="conText clearfix baseDel resume_delete_area">
+								
+								<div class="resume_value" id='skillconfirm'>
+								<p>学士学位 </p>
+								<p>CET -4 &nbsp; 英语4级</p>
+								<p>CET -6 &nbsp; 英语6级</p>
+								</div>
+							</div>
+						</div>		
+					</dd>
+				</dl>
+			</div>
+			<!-- 语言 -->
+
+			<div class="skillDiv baseItem baseSort resume_sort resume_graph " notice-key="resume_graph" id="language" for-key="resume_graph">
+				<dl>
+					<dt class="clearfix">
+						<a class="wbdfont setIconBtn resume_icon_diy" for-id="resume_graph" style="font-size:">
+							<img src="./img/language.png" alt="">
+						</a>
+						<span><div  class="resume_tilte_name" for-key="graphs_title" for-value="html">语 言</div></span>
+					</dt>
+					<dd style="padding-top:10px;" class="clearfix resume_add_area">
+						<div class="resume_append_area">
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="resume_skill_graph" for-value="html">英语</div>
+								<span class="line"><i class="resume_line" for-id="resume_skill_graph" style="width:100px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="resume_skill_graph" for-value="html"></div>
+								
+							</div>
+
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="resume_skill_graph" for-value="html">普通话</div>
+								<span class="line"><i class="resume_line" for-id="resume_skill_graph" style="width:110px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="resume_skill_graph" for-value="html"></div>
+								
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="resume_skill_graph" for-value="html">粤语</div>
+								<span class="line"><i class="resume_line" for-id="resume_skill_graph" style="width:110px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+
+
+							
+						</div>
+					</dd>
+					
+				</dl>						
+			</div>	
+
+
+
+			<!-- 职业技能 -->
+
+			<div class="skillDiv baseItem baseSort resume_sort resume_graph " notice-key="resume_graph" id="resume_graph" for-key="resume_graph">
+				<dl>
+					<dt class="clearfix">
+						<a class="wbdfont setIconBtn resume_icon_diy" for-id="resume_graph" style="font-size:"></a>
+						<span><div  class="resume_tilte_name" for-key="graphs_title" for-value="html">职业技能</div></span>
+					</dt>
+					<dd class="clearfix resume_add_area">
+						<div class="resume_append_area">
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="resume_skill_graph" for-value="html">HTML & CSS</div>
+								<span class="line"><i class="resume_line" for-id="resume_skill_graph" style="width:125px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="30b554c05f658c960c85120cd032e1a3" for-value="html">HTML5 & CSS3</div>
+								<span class="line"><i class="resume_line" for-id="30b554c05f658c960c85120cd032e1a3" style="width:118px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="16d4f456f02d2f0296823f0e5cd172bd" for-value="html">移动端</div>
+								<span class="line"><i class="resume_line" for-id="16d4f456f02d2f0296823f0e5cd172bd" style="width:115px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="16d4f456f02d2f0296823f0e5cd172bd" for-value="html">响应式</div>
+								<span class="line"><i class="resume_line" for-id="16d4f456f02d2f0296823f0e5cd172bd" style="width:115px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">原生 JavaScript</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:110px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">chrome 控制台</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:110px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">PS切图</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:110px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">简单 ICON</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:110px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">LESS</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:110px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">Jquery 等插件</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:125px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">Zepto </div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:125px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">BootStrap 框架</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:100px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">AJAX & JSONP</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:110px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">CANVAS 动画</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:120px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+
+
+							
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">了解 Node.js</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:100px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">Angular</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:100px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">VUE</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:100px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">React</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:100px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">glup (node)</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:100px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">Browsersync</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:110px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">Express (node)</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:110px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">websocket</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:90px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">socket.io (node)</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:110px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">ECMAscript 6</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:90px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">Git</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:90px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+							<div class="baseSkill baseDel resume_delete_area resume_graph_item">
+								
+								<div class="title resume_value"  for-key="e5f8993ef787dabb5b0c8a12c95c9749" for-value="html">SVN</div>
+								<span class="line"><i class="resume_line" for-id="e5f8993ef787dabb5b0c8a12c95c9749" style="width:90px;border-top-style:solid;border-top-width:7px;"></i></span>
+							</div>
+
+							
+						</div>
+					</dd>
+				</dl>						
+			</div>	
+
+
+			<!--工作经历-->
+			<div class="eduDiv baseItem baseSort resume_item resume_add_area resume_sort resume_notice " notice-key="work" id="resume_work" for-key="work">
+				<dl>
+					<dt class="clearfix">
+						<a class="wbdfont setIconBtn resume_icon_diy" for-id="work" style="font-size:none"></a>
+						<span><div  class="resume_tilte_name" for-key="expercall_title" for-value="html">工作经历</div></span>
+					</dt>
+					<dd class="clearfix resume_append_area">
+						<div class="baseContent resume_item_items baseDel resume_delete_area">	
+							
+							<div class="conTitle clearfix">
+								<span class="time">
+									<div class="resume_time" >2014.07-2016.08</div>
+								</span>
+								<span class="company"><div class="resume_unit" >广州洛克塔信息技术有限公司</div></span>
+								<span class="post"><div class="resume_job" >前端 & H5开发</div></span>
+							</div>
+							<div class="conText clearfix baseDel resume_delete_area">
+								
+								<div class="resume_value" >
+									<p style="padding-top:5px !important;">1、负责项目的静态页面编写</p>
+									<p style="padding-top:5px !important;">2、编写JS交互脚本，Animation</p>
+									<p style="padding-top:5px !important;">3、CANVAS、CSS3、H5等技术的实践应用</p>
+									<p style="padding-top:5px !important;">4、AJAX异步加载、JSONP跨域、调用后台，第三方接口等</p>
+									<p style="padding-top:5px !important;">5、Node.js 中各种黑科技的实验</p>
+									<p style="padding-top:5px !important;">6、学习 React，Vue等新技术</p>
+								</div>
+							</div>
+						</div>	
+						
+					</dd>
+				</dl>
+			</div>	
+			
+			<!--项目经验-->
+			<div class="outexperDiv baseItem baseSort  resume_item resume_add_area resume_sort resume_notice" notice-key="project" id="resume_project" for-key="project">
+				<dl>
+					<dt class="clearfix">
+					<a class="wbdfont setIconBtn resume_icon_diy" for-id="project" style="font-size:none"></a>
+					<span><div  class="resume_tilte_name" for-key="experdall_title" for-value="html">PC端 简历：</div></span>
+					</dt>
+					<dd class="clearfix resume_append_area">
+						<div class="baseContent baseDel resume_item_items baseDel resume_delete_area">	
+							<div class="conText clearfix baseDel resume_delete_area">
+								
+								<div class="resume_value">
+									<a style="position:relative;top:-55px;left:215px;color:#428bca;" href="###">
+										
+										
+										&lt;link&gt;http://www.baidu.com&lt;link&gt;
+										<br>
+										* 请用chrome，firefox等现代浏览器打开
+									</a>
+								</div>
+							</div>
+						</div>	
+					</dd>
+				</dl>
+			</div>	
+		</div>
+		<div class="wbd-divBottom"></div>
+	</div>
+</div>			</div>
+		
+		</div>
+	</div>
+	
+
+
+	
+			
+	
+
+</div>
+	</div>
+
+
+	
+
+
+
+
+	<!-- ############# 简历首屏    end   ################### -->
+
+
+	<!-- 项目1,,100度,介绍 -->
+	<div class="c-pro-bg">
+
+		
+		<div class="project-wrap project1">
+			<h2>
+				<span class="title">项目名称：</span>
+				<span class="para">100度生活资讯网 （PC端）</span>
+			</h2>
+			<p class="section">
+				<span class="title">项目简介：</span>
+				<span class="para">
+					100度生活资讯网站是一个集广告体验、游戏、积分兑奖为一体的综合娱乐平台，也是国内体验式网络广告投放平台的后起之秀，融合了点击、体验、定向等新营销概念，让数千万网民通过100度获得丰富的实物报酬的同时，为广告商提供了真实有效的广告受众。
+				</span>
+			</p>
+			<p class="section task">
+				<img class="img1" src="./img/icon-logo.png" alt="">
+				<span class="title">项目任务：</span>
+				<span class="para">
+					根据设计稿制造图片素材及制作简易图标<br>
+					编写利于维护的静态页面<br>了解后台接口，为前后台数据交互预留空间<br>
+					前端数据优化，利用精灵图，懒加载等技术提高响应速度
+				</span>
+			</p>
+			<p class="section skill">
+				<span class="title">SKILL：</span>
+				<span class="para">
+					PS基本应用，精灵图制作等<br>
+					根据后台数据预留位置 & 编写简单php脚本<br>
+					Jquery 等类库，框架的应用<br>
+					懒加载技术，不影响用户体验前提下，提高首屏加载速度，增强用户体验<br>
+					AJAX异步加载，减少页面的切换，JSONP跨域传输技术等<br>
+					调用百度 APIStore 中的天气，电影等第三方接口<br>
+				</span>
+				<img class="img1" src="./img/logo-jquery.png" alt="">
+				<img class="img2" src="./img/ajax.png" alt="">
+				<span class="img3">
+					JSONP
+				</span>
+
+			</p>
+			<div class="section">
+				<span class="title">项目展示：</span>
+				<span class="para">
+					项目静态页面繁多<br>
+					前后台数据交互复杂<br>
+				</span>
+				<div id="show100du" class="clearfix">
+					
+					<img class="first" src="./img/100du1.png" alt="">
+					<img class="second" src="./img/100du2.png" alt="">
+					<img class="third" src="./img/logo1.png" alt="">
+					<img class="forth" src="./img/cartoon.png" alt="">
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- 项目2,生活一家,,介绍 -->
+	<div class="c-pro-bg">
+
+		
+		<div class="project-wrap project2">
+			<h2>
+				<span class="title">项目名称：</span>
+				<span class="para">生活一家 （移动端）</span>
+			</h2>
+			<p class="section">
+				<span class="title">项目简介：</span>
+				<span class="para">
+					 “生活一家”是惠州市生活一家网络科技有限公司于2015年创建，通过强大的数据收集、云计算及整合，丰富的电子商务管理服务和最先进的互联网技术为用户提供优质商品和服务。
+				</span>
+			</p>
+			<p class="section">
+				<span class="title">项目任务：</span>
+				<span class="para">
+					流式布局，响应式，适配移动端多屏幕尺寸<br>
+					编写利于维护的静态页面<br>
+					zepto，swiper等类库，插件的使用<br>
+					Angular.js框架制作 webAPP<br>
+					为前后台数据交互预留接口空间<br>
+					数据优化，公共样式提取与管理<br>
+				</span>
+			</p>
+			<p class="section skill">
+				<span class="title">SKILL：</span>
+				<span class="para">
+					流式 + 响应式 布局<br>
+					Tween动画插件精简应用<br>
+					百度 Touch.js 移动端手势插件应用<br>
+					Zepto 等类库应用<br>
+					Angular.js 简易开发webAPP <br>
+					根据后台数据预留位置 & 编写简单php脚本<br>
+					AJAX异步加载，减少页面的切换<br>
+					glup开发环境，Browsersync同步调试等自动化工具应用<br>
+				</span>
+				<img class="img1" src="./img/zepto.png" alt="">
+				<img class="img2" src="./img/angular.png" alt="">
+				<img class="img3" src="./img/xiang.png" alt="">
+				<span class="img4">
+					响应式
+				</span>
+
+			</p>
+			<div class="section">
+				<span class="title">项目展示：</span>
+				<span class="para">
+					Angular 路由，前端表单验证，双向绑定等<br>
+				</span>
+				<div id="showFamily" class="clearfix">
+					<img class="first" src="./img/family1.png" alt="">
+					<img class="second" src="./img/family2.png" alt="">
+					<img class="third" src="./img/family3.png" alt="">
+					
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- 项目3,精英吧,,介绍 -->
+	<div class="c-pro-bg">
+
+		
+		<div class="project-wrap project3">
+			<h2>
+				<span class="title">项目名称：</span>
+				<span class="para">精英吧 （PC端）</span>
+			</h2>
+			<p class="section">
+				<span class="title">项目简介：</span>
+				<span class="para">
+					 精英吧是由北京才信教育科技有限公司创建并运营的在线教育平台，是国内唯一 一家专注于精品课程和学习效果考察的在线教育网站，致力于打造中国职业教育O2O优质品牌，面向大中专毕业生、高校、企业提供一流的职业教育和人才服务。
+				</span>
+			</p>
+			<p class="section">
+				<span class="title">项目任务：</span>
+				<span class="para">
+					向后兼容至window IE8，优雅降级为低版本浏览器用户提供整洁界面<br>	
+					爬取门户网站新闻<br>
+					构建前后端数据验证系统<br>
+					构建 CMS 内容管理系统<br>
+				</span>
+			</p>
+			<p class="section skill">
+				<span class="title">SKILL：</span>
+				<span class="para">
+					hack 技术兼容 IE 浏览器，实现优雅降级<br>
+					Jquery插件的使用，保证JS脚本跨浏览器内核正常运作<br>
+					编写基于Jquery的扩展插件脚本，$.fn.extend({})，如：大图滚动<br>
+					PHP爬虫（Phpfetcher插件）的学习与使用，为“互联网头条”页爬取新闻信息<br>
+					Angular.js为表单制作前端以及后台的数据验证<br>
+					AJAX 局部异步加载，增强用户体验<br>
+					与后台技术人员一同编写易于他人操作的 CMS 内容管理系统<br>
+
+				</span>
+				<img class="img1" src="./img/reptile.png" alt="">
+			
+
+			</p>
+			<div class="section">
+				<span class="title">项目展示：</span>
+				<span class="para">
+					项目在 良好用户体验的前提下兼容至 IE8 浏览器<br>
+					PHP 与 JSONP 的联接使用爬取异域资源<br>
+					AJAX等技术提高用户体验<br>
+				</span>
+				<div id="showJingying" class="clearfix">
+					<img class="first" src="./img/jingying1.png" alt="">
+					<img class="second" src="./img/jingying2.png" alt="">
+					<img class="third" src="./img/jingying3.png" alt="">
+					
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- 项目4,练手的小作品,,介绍 -->
+	<div class="c-pro-bg">
+		<!-- 一条彩线横穿过！！！！  js插件代码在body 最后面-->
+		<canvas id="canvas"></canvas>
+		<!-- 好了，，，装逼结束 -->
+		
+		<div class="project-wrap project3">
+			<h2>
+				<span class="title">练手作品：</span>
+				<span class="para">CANVAS的几个特效 & Node.js 路由</span>
+			</h2>
+			<p class="section">
+				<span class="title">项目简介：</span>
+				<span class="para">
+					 刚接触学习 CANVAS 时做的一些练手的demo，功能并不完善，但有个雏形，主要目的是巩固知识点以及实际应用。
+				</span>
+			</p>
+			<p class="section">
+				<span class="title">项目任务：</span>
+				<span class="para">
+					1，学习CANVAS 动画的制作<br>	
+					2，巩固 面向对象 （OO）的编程方式<br>
+					3，Node.js 建立服务器的练习<br>
+					4，Node.js Express 插件编写路由练习<br>
+				</span>
+			</p>
+			<p class="section skill">
+				<span class="title">SKILL：</span>
+				<span class="para">
+					对新技术有良好的自学能力，并且热爱折腾<br>
+					CANVAS 动画的熟悉与应用<br>
+					巩固原生JS 原型链，闭包等原理以及应用<br>
+					Node.js 构建后台的了解<br>
+					运用 Node.js 的Express 插件编写路由<br>
+
+				</span>
+				<img class="img1" src="./img/reptile.png" alt="">
+			
+
+			</p>
+			<div class="section">
+				<span class="title">项目展示：</span>
+				<span class="para">
+					练手的项目<br>
+					热衷学习，应用新工具，新知识<br>
+					享受从无到有，为自己填坑的过程<br>
+				</span>
+				<div id="showJingying" class="clearfix">
+					<img class="first" src="./img/jingying1.png" alt="">
+					<img class="second" src="./img/jingying2.png" alt="">
+					<img class="third" src="./img/jingying3.png" alt="">
+					
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+
+
+
+
+	<script type="text/javascript" src='./js/StarMaker.js'></script>
+	<script type="text/javascript">
+		var canvas = document.getElementById('canvas');
+
+		var starMaker = new StarMaker();
+		starMaker.lineCrossScreen({
+			element:canvas,
+		});
+
+
+		
+
+
+	</script>
+</body>
+</html>
